@@ -1,6 +1,6 @@
 # Pratik AI — Intelligent Multi-Tool Personal AI Assistant
 
-Pratik AI is a modular, offline-first personal AI assistant that supports
+Pratik AI is a modular, Intelligent Multi-Tool Personal AI Assistant that supports
 text and voice conversation, knows you personally through your own documents
 (RAG) and long-term memory (SQLite), and can call tools to get things done.
 
