@@ -1,30 +1,41 @@
-# --- Core ---
+# ============================================================
+# Pratik AI - Intelligent Multi-Tool Personal AI Assistant
+# ============================================================
+
+# ---------------- Core ----------------
 python-dotenv==1.0.1
 pydantic==2.8.2
+requests==2.32.3
+psutil==6.0.0
+
+# ---------------- Backend ----------------
 fastapi==0.115.0
 uvicorn[standard]==0.30.6
-streamlit==1.38.0
-requests==2.32.3
+python-multipart==0.0.9
 
-# --- Audio / Speech ---
-sounddevice==0.4.7
-soundfile==0.12.1
+# ---------------- Frontend ----------------
+streamlit==1.38.0
+
+# ---------------- Audio / Speech ----------------
 numpy==1.26.4
 scipy==1.13.1
+sounddevice==0.4.7
+soundfile==0.12.1
 torch==2.3.1
-silero-vad==5.1.2
 faster-whisper==1.0.3
+silero-vad==5.1.2
 piper-tts==1.6.0
 
-# --- RAG / Embeddings ---
-# chromadb is optional and can be installed separately if you want the
-# Chroma backend; the default project configuration uses FAISS for compatibility.
+# ---------------- LLM / Embeddings ----------------
 sentence-transformers==3.0.1
 faiss-cpu==1.8.0.post1
+
+# Uncomment if using Chroma instead of FAISS
+# chromadb==0.5.5
+
+# ---------------- Document Processing ----------------
 pypdf==4.3.1
 markdown-it-py==3.0.0
 
-# --- Utilities ---
-protobuf==4.23.4
-psutil==6.0.0
-python-multipart==0.0.9
+# ---------------- Weather & Web Search ----------------
+openai==1.40.6
