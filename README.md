@@ -1,4 +1,4 @@
-# Pratik AI — Personal Offline AI Assistant
+# Pratik AI — Intelligent Multi-Tool Personal AI Assistant
 
 Pratik AI is a modular, offline-first personal AI assistant that supports
 text and voice conversation, knows you personally through your own documents
